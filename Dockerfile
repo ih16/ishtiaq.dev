@@ -1,8 +1,8 @@
 FROM oven/bun:latest
 WORKDIR /src
-COPY package.json package.json
-COPY bun.lockb bun.lockb
+COPY package*.json bun.lockb ./
 RUN bun install
 COPY . .
-EXPOSE 3000
-ENTRYPOINT ["bun", "index.js"]
+ENV NODE_ENV production
+EXPOSE 4321
+CMD [ "bun", "start" ]
