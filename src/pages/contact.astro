@@ -1,0 +1,33 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Linkedin from "../components/icons/Linkedin";
+import Github from "../components/icons/Github";
+import Email from "../components/icons/Email";
+---
+
+<Layout title="Ishtiaq Hossain - Full Stack Developer">
+  <main
+    class="text-white flex w-full h-full justify-center items-center gap-16 md:gap-20 flex-col md:flex-row"
+  >
+    <a
+      href="https://github.com/ih16"
+      target="_blank"
+      class="w-24 p-2 hover:text-teal-300 transition-all duration-300 hover:-translate-y-1 hover:scale-125"
+    >
+      <Linkedin />
+    </a>
+    <a
+      href="https://www.linkedin.com/in/iht"
+      target="_blank"
+      class="w-24 p-2 hover:text-teal-300 transition-all duration-300 hover:-translate-y-1 hover:scale-125"
+    >
+      <Github />
+    </a>
+    <a
+      href="mailto:ih.tonmoy@gmail.com"
+      class="w-24 p-2 hover:text-teal-300 transition-all duration-300 hover:-translate-y-1 hover:scale-125"
+    >
+      <Email />
+    </a>
+  </main>
+</Layout>

@@ -1,0 +1,35 @@
+---
+interface Props {
+  label?: string;
+  url: string;
+}
+const { label, url } = Astro.props;
+---
+
+<a
+  href={url}
+  class=`${Astro.url.pathname === url ? 'active' :''} border-t-2 md:border-t-0 border-r-0 md:border-r-2 border-gray-500 font-bold relative text-white p-8 hover:bg-teal-300 hover:border-teal-300 hover:text-teal-900 transition-colors flex-1`
+>
+  <div
+    class="md:-rotate-90 text-xl md:text-2xl absolute top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%]"
+  >
+    {label}
+  </div>
+</a>
+
+<style>
+  .active {
+    @apply text-white transition-all duration-300 border-teal-300;
+    text-shadow: #0f0f0f 0.25rem 0.2rem 0rem;
+    background: repeating-linear-gradient(
+      45deg,
+      #5eead4,
+      #5eead4 5%,
+      #0f0f0f 5%,
+      #0f0f0f 10%
+    );
+    background-size: 100px 100px;
+    animation: move-it 2s linear infinite;
+    overflow-x: hidden;
+  }
+</style>
