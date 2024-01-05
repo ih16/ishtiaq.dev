@@ -11,6 +11,12 @@ const language = [
     icon: "javascript",
     label: "JavaScript",
   },
+  {
+    name: "php",
+    content: "php",
+    icon: "php",
+    label: "PHP",
+  },
 ];
 
 const frameworks = [

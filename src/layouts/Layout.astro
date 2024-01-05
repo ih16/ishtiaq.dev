@@ -28,7 +28,7 @@ import { ViewTransitions } from "astro:transitions";
     <div
       class={clsx(
         { "p-4 lg:p-8": padded },
-        "flex flex-col w-full h-[calc(100vh-4rem)] md:h-screen overflow-y-auto"
+        "flex flex-col w-full h-[calc(100dvh-4rem)] md:h-screen overflow-y-auto relative"
       )}
     >
       <slot />
@@ -37,7 +37,7 @@ import { ViewTransitions } from "astro:transitions";
       @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
       body {
         font-family: "Space Grotesk", sans-serif;
-        min-height: 100vh;
+        min-height: 100dvh;
         background-color: #0f0f0f;
       }
       @keyframes zoom {
@@ -81,6 +81,14 @@ import { ViewTransitions } from "astro:transitions";
           transform: scaleY(100%);
         }
       }
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
       .slide-down {
         animation: slide-down ease-in 0.2s;
       }
@@ -105,6 +113,10 @@ import { ViewTransitions } from "astro:transitions";
       .slide-hover:hover {
         @apply text-teal-200;
         background-size: 200% 100%;
+      }
+
+      .fade-in {
+        animation: fade-in ease-in 0.2s;
       }
       .tab-active svg {
         animation: rotate-z;
