@@ -23,7 +23,7 @@ const Tabs: FC<Props> = ({ title, items }) => {
                 )}
               >
                 <div className="w-8 h-8 flex">{icon}</div>
-                <div>{item}</div>
+                <div className="text-ellipsis overflow-clip">{item}</div>
               </button>
             </>
           );

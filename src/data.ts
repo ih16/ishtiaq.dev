@@ -9,10 +9,8 @@ export const skills = {
     "codeigniter",
     "laravel",
     "elysiajs",
-    "oak",
   ],
   library: [
-    "react",
     "svelte",
     "tanstackquery",
     "redux",
@@ -21,6 +19,7 @@ export const skills = {
     "antd",
     "tailwind",
     "bootstrap",
+    "jquery",
     "styled",
     "aggrid",
   ],

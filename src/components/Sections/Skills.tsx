@@ -25,7 +25,17 @@ const Skills = () => {
   return (
     <div>
       <Tabs title="LANGUAGES" items={skills.language} />
-      <Tabs title="FRAMEWORK & LIBRARIES" items={skills.framework} />
+      <Tabs
+        title="FRAMEWORK & LIBRARIES"
+        items={[...skills.framework, ...skills.library]}
+      />
+      <Tabs title="DATABASE" items={skills.database} />
+      <Tabs title="RUNTIME" items={skills.runtime} />
+      <Tabs title="SERVER" items={skills.server} />
+      <Tabs title="BUNDLER" items={skills.bundler} />
+      <Tabs title="PREPROCESSOR" items={skills.preprocessor} />
+      <Tabs title="CONTAINER" items={skills.container} />
+      <Tabs title="CMS" items={skills.cms} />
     </div>
   );
 };
