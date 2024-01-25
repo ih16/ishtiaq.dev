@@ -89,9 +89,20 @@ import { ViewTransitions } from "astro:transitions";
           opacity: 1;
         }
       }
-      .slide-down {
-        animation: slide-down ease-in 0.2s;
+
+      @keyframes pulse-bg-animation {
+        0% {
+          @apply bg-teal-950;
+        }
+        100% {
+          @apply bg-none;
+        }
       }
+
+      .pulse-bg {
+        animation: pulse-bg-animation 2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+      }
+
       .slide-hover {
         cursor: pointer;
         background-image: linear-gradient(

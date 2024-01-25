@@ -1,25 +1,42 @@
-import TypeScriptIcon from "./Typescript";
-import JavascriptIcon from "./Javascript";
-import ReactIcon from "./React";
-import NextjsIcon from "./Nextjs";
-import PhpIcon from "./Php";
-import PhalconIcon from "./Phalcon";
+import AgGridIcon from "./AgGrid";
+import AntdIcon from "./Antd";
 import AstroIcon from "./Astro";
-import PythonIcon from "./Python";
+import BootstrapIcon from "./Bootstrap";
 import CIcon from "./C";
 import CPPIcon from "./CPP";
-import DockerIcon from "./Docker";
-import TanstackQueryIcon from "./TanstackQuery";
-import ExpressIcon from "./Express";
 import CodeigniterIcon from "./Codeigniter";
-import LarvelIcon from "./Laravel";
-import StrapiIcon from "./Strapi";
+import DockerIcon from "./Docker";
 import ElysiajsIcon from "./Elysiajs";
-import LessIcon from "./Less";
-import SvelteIcon from "./Svelte";
-import NodeIcon from "./Nodejs";
+import ExpressIcon from "./Express";
+import JavascriptIcon from "./Javascript";
 import JqueryIcon from "./Jquery";
+import LarvelIcon from "./Laravel";
+import LessIcon from "./Less";
+import MobxIcon from "./Mobx";
+import NextjsIcon from "./Nextjs";
+import NodeIcon from "./Nodejs";
+import PhalconIcon from "./Phalcon";
+import PhpIcon from "./Php";
+import PythonIcon from "./Python";
+import ReactIcon from "./React";
 import ReduxIcon from "./Redux";
+import SassIcon from "./Sass";
+import StrapiIcon from "./Strapi";
+import SvelteIcon from "./Svelte";
+import TailwindIcon from "./Tailwind";
+import TanstackQueryIcon from "./TanstackQuery";
+import TypeScriptIcon from "./Typescript";
+import StyledIcon from "./Styled";
+import MySqlIcon from "./MySql";
+import PostgresIcon from "./Postgres";
+import DenoIcon from "./Deno";
+import BunIcon from "./Bun";
+import ApacheIcon from "./Apache";
+import NginixIcon from "./Nginx";
+import WebpackIcon from "./Webpack";
+import ViteIcon from "./Vite";
+import GraphqlIcon from "./Graphql";
+import ApolloIcon from "./Apollo";
 
 const IconMap = {
   react: <ReactIcon />,
@@ -44,6 +61,23 @@ const IconMap = {
   nodejs: <NodeIcon />,
   jquery: <JqueryIcon />,
   redux: <ReduxIcon />,
+  mobx: <MobxIcon />,
+  antd: <AntdIcon />,
+  sass: <SassIcon />,
+  tailwind: <TailwindIcon />,
+  aggrid: <AgGridIcon />,
+  bootstrap: <BootstrapIcon />,
+  styled: <StyledIcon />,
+  mysql: <MySqlIcon />,
+  postgres: <PostgresIcon />,
+  deno: <DenoIcon />,
+  bun: <BunIcon />,
+  apache: <ApacheIcon />,
+  nginx: <NginixIcon />,
+  webpack: <WebpackIcon />,
+  vite: <ViteIcon />,
+  graphql: <GraphqlIcon />,
+  apollo: <ApolloIcon />,
 };
 
 export default IconMap as { [key: string]: JSX.Element };

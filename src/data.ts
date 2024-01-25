@@ -1,5 +1,5 @@
 export const skills = {
-  language: ["javascript", "typescript", "php", "python", "c", "cpp"],
+  language: ["javascript", "typescript", "php", "graphql", "python", "cpp"],
   framework: [
     "react",
     "nextjs",
@@ -14,7 +14,6 @@ export const skills = {
     "svelte",
     "tanstackquery",
     "redux",
-    "zustand",
     "mobx",
     "antd",
     "tailwind",
@@ -22,6 +21,7 @@ export const skills = {
     "jquery",
     "styled",
     "aggrid",
+    "apollo",
   ],
   preprocessor: ["sass", "less"],
   bundler: ["webpack", "vite"],
@@ -35,6 +35,7 @@ export const skills = {
 export const logs = [
   {
     title: "Gateway",
+    subtitle: "Rental Ecoommerce Platform",
     skills: [
       "javascript",
       "react",
@@ -43,46 +44,67 @@ export const logs = [
       "phalcon",
       "codeigniter",
       "mysql",
+      "nginx",
+      "webpack",
+      "sass",
       "docker",
     ],
     description:
-      "Gateway is a web application that allows you to manage your bookings, customers and staff all in one place.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     title: "Texada Web",
-    skills: ["typescript", "javascript", "react", "sass", "webpack", "docker"],
-    description: "Texada Web is a web application for Texada's customers.",
+    subtitle: "Heavy Equipment Rental Platform",
+    skills: [
+      "typescript",
+      "javascript",
+      "react",
+      "aggrid",
+      "redux",
+      "sass",
+      "webpack",
+      "nginx",
+      "docker",
+    ],
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     title: "Moresailing - Saailing for all",
+    subtitle: "Booking Website",
     skills: [
       "typescript",
+      "graphql",
       "nextjs",
+      "apollo",
       "tailwind",
       "strapi",
       "postgres",
       "docker",
     ],
-    description: "Moresailing is a sailing school in Vancouver, BC.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     title: "Resemolnet Multi-Tenant Booking Management System",
+    subtitle: "Booking Management Systems",
     skills: [
       "typescript",
       "react",
       "antd",
-      "reactQuery",
+      "tanstackquery",
       "styled",
       "less",
       "vite",
     ],
     description:
-      "Resemolnet is a multi-tenant booking management system for small businesses. It allows you to manage your bookings, customers and staff all in one place.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     title: "Ahoy booking management system",
+    subtitle: "Booking Management Systems",
     skills: ["javascript", "react", "antd", "redux", "styled"],
     description:
-      "Ahoy is a booking management system for small businesses. It allows you to manage your bookings, customers and staff all in one place.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
 ];
