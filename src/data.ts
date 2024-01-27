@@ -34,19 +34,38 @@ export const skills = {
 
 export const logs = [
   {
-    title: "Gateway",
-    subtitle: "Rental Ecoommerce Platform",
+    title: "Ahoy booking management system",
+    subtitle: "Booking Management Systems",
+    skills: ["javascript", "react", "antd", "redux", "styled"],
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  },
+  {
+    title: "Resemolnet Multi-Tenant Booking Management System",
+    subtitle: "Booking Management Systems",
     skills: [
-      "javascript",
+      "typescript",
       "react",
-      "mobx",
-      "php",
-      "phalcon",
-      "codeigniter",
-      "mysql",
-      "nginx",
-      "webpack",
-      "sass",
+      "antd",
+      "tanstackquery",
+      "styled",
+      "less",
+      "vite",
+    ],
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  },
+  {
+    title: "Moresailing - Saailing for all",
+    subtitle: "Booking Website",
+    skills: [
+      "typescript",
+      "graphql",
+      "nextjs",
+      "apollo",
+      "tailwind",
+      "strapi",
+      "postgres",
       "docker",
     ],
     description:
@@ -70,40 +89,21 @@ export const logs = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
-    title: "Moresailing - Saailing for all",
-    subtitle: "Booking Website",
+    title: "Texada Gateway",
+    subtitle: "Rental Ecoommerce Platform",
     skills: [
-      "typescript",
-      "graphql",
-      "nextjs",
-      "apollo",
-      "tailwind",
-      "strapi",
-      "postgres",
+      "javascript",
+      "react",
+      "mobx",
+      "php",
+      "phalcon",
+      "codeigniter",
+      "mysql",
+      "nginx",
+      "webpack",
+      "sass",
       "docker",
     ],
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  },
-  {
-    title: "Resemolnet Multi-Tenant Booking Management System",
-    subtitle: "Booking Management Systems",
-    skills: [
-      "typescript",
-      "react",
-      "antd",
-      "tanstackquery",
-      "styled",
-      "less",
-      "vite",
-    ],
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  },
-  {
-    title: "Ahoy booking management system",
-    subtitle: "Booking Management Systems",
-    skills: ["javascript", "react", "antd", "redux", "styled"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },

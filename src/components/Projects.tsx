@@ -23,19 +23,19 @@ const Projects = () => {
         <div
           id={`log-${log.title}`}
           key={log.title}
-          className={clsx("p-4 lg:p-8 mb-4 transition-all duration-200", {
+          className={clsx("p-4 lg:p-8 transition-all duration-200", {
             "pulse-bg": activeSkill && log.skills?.includes(activeSkill),
           })}
         >
-          <h1 className="text-teal-300 font-semibold">{log.title}</h1>
-          <h2 className="text-teal-600">{log.subtitle}</h2>
-          <div className="flex space-x-3 my-2">
+          <h1 className="text-teal-300 font-semibold text-xl">{log.title}</h1>
+          <h2 className="text-teal-600 text-lg">{log.subtitle}</h2>
+          <div className="flex space-x-3 my-4">
             {log.skills?.map((skill) => {
               const Icon = IconMap?.[skill] ?? null;
               return (
                 <div
                   key={skill}
-                  className={clsx("w-6 h-6", {
+                  className={clsx("w-8 h-8 flex items-center", {
                     "animate-bounce duration-1000": activeSkill === skill,
                   })}
                 >
