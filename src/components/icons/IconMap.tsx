@@ -37,6 +37,11 @@ import WebpackIcon from "./Webpack";
 import ViteIcon from "./Vite";
 import GraphqlIcon from "./Graphql";
 import ApolloIcon from "./Apollo";
+import DjangoIcon from "./Django";
+import JestIcon from "./Jest";
+import PayloadIcon from "./Payload";
+import DirectusIcon from "./Directus";
+import StoryBookIcon from "./StoryBook";
 
 const IconMap = {
   react: <ReactIcon />,
@@ -78,6 +83,11 @@ const IconMap = {
   vite: <ViteIcon />,
   graphql: <GraphqlIcon />,
   apollo: <ApolloIcon />,
+  django: <DjangoIcon />,
+  payload: <PayloadIcon />,
+  jest: <JestIcon />,
+  directus: <DirectusIcon />,
+  storybook: <StoryBookIcon />,
 };
 
 export default IconMap as { [key: string]: JSX.Element };
