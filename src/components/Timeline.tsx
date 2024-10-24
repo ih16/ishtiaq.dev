@@ -35,7 +35,7 @@ const Timeline = () => {
             <h2 className="text-teal-600 text-lg">{log.subtitle}</h2>
           </div>
 
-          <div className="flex space-x-3 my-4 p">
+          <div className="flex gap-2 my-4 flex-wrap items-center">
             {log.skills?.map((skill) => {
               const Icon = IconMap?.[skill] ?? null;
               return (

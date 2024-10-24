@@ -66,7 +66,7 @@ export const timeline = [
     ],
   },
   {
-    date: "JANUARY 2021 - NOVEMBER 2021",
+    date: "JANUARY 2022 - NOVEMBER 2022",
     title: "Software Engineer",
     subtitle: "Strativ, Dhaka, Bangladesh",
     skills: [
@@ -87,7 +87,7 @@ export const timeline = [
     ],
   },
   {
-    date: "DECEMBER 2020 - CURRENT (REMOTE)",
+    date: "DECEMBER 2021 - CURRENT (REMOTE)",
     title: "Software Developer",
     subtitle: "Texada Software, ON, Canada",
     skills: [
@@ -122,7 +122,7 @@ export const timeline = [
   },
 
   {
-    date: "MAY 2020 - DECEMBER 2020",
+    date: "MAY 2021 - DECEMBER 2021",
     title: "Junior Software Engineer",
     subtitle: "Strativ, Dhaka, Bangladesh",
     skills: ["javascript", "react", "antd", "redux", "styled"],
